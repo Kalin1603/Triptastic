@@ -5,7 +5,7 @@ namespace Triptastic.Models
 {
     public class Property
     {
-        [Key] // Първичен ключ
+        [Key] 
         public int Id { get; set; }
 
         [Required]
